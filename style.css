@@ -12,22 +12,44 @@ header {
     align-self: center;
     align-items: center;
     font-size: xx-large;
-    font-family: sans-serif;
+    font-family: Verdana;
     text-align: center;
+    color:aqua;
     padding: 100px 300px;
-    background-color:aquamarine
-    /* background-image: url(https://www.istockphoto.com/vector/music-background-gm1076840920-288411432); */
+    /* background-color:aquamarine */
+    background-image: url(https://static.wixstatic.com/media/5d0760_5eb6cbd8c26d4eba87ecd0b5c58f2f87~mv2.jpg/v1/fill/w_616,h_360,al_c,lg_1,q_80,enc_auto/5d0760_5eb6cbd8c26d4eba87ecd0b5c58f2f87~mv2.jpg);
+    background-size: 100%;
 
 }
+/* .artist{
+    text-align: center;
+    font-family: verdana;
+    font: blue;
+}
+.songtite{
+    text-align: center;
+    font-family: Verdana;
+} */
+label {
+    font-family: Verdana;
+}
 .media {
-    border: 5px red;
+    padding: 50px solid white;
+}
+button {
+    background-color: rgb(159, 73, 201);
 }
 #mediacontainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    border: black 3px;
+    background-image: url(https://images.hdqwalls.com/wallpapers/abstract-dark-colorful-subtle-4k-xo.jpg);
+    border: black 50px;
     margin: white 3px;
+    padding: 100px blue;
+    color:aqua;
+    text-align: center;
+    font-family: Verdana;
 }
 
 input {
