@@ -1,0 +1,38 @@
+body {
+    background-color: aqua;
+}
+figure {
+    margin: 0;
+    padding: 50px;
+}
+
+header {
+    flex: content;
+    align-self: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: sans-serif;
+    padding: 100px 300px;
+    background-color:aquamarine
+
+}
+
+#sresults {
+    display:flex;
+    flex-wrap: wrap;
+}
+#search {
+    display:flex;
+    flex-wrap: wrap;
+}
+#searchdisplay {
+    margin: 2px;
+    padding: 25px 10px;
+    background-color:beige;
+    width: 80%;
+}
+button {
+    padding: 10px 40px;
+    margin: 5px;
+
+}
