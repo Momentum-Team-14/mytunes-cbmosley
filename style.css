@@ -1,5 +1,6 @@
 body {
     background-color: aqua;
+    background-image: url();
 }
 figure {
     margin: 0;
@@ -12,18 +13,31 @@ header {
     align-items: center;
     font-size: xx-large;
     font-family: sans-serif;
+    text-align: center;
     padding: 100px 300px;
     background-color:aquamarine
+    /* background-image: url(https://www.istockphoto.com/vector/music-background-gm1076840920-288411432); */
 
 }
-
-#sresults {
-    display:flex;
+.media {
+    border: 5px red;
+}
+#mediacontainer {
+    display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    border: black 3px;
+    margin: white 3px;
+}
+
+input {
+    width: 60%;
+    padding: 10px 25px;
 }
 #search {
     display:flex;
     flex-wrap: wrap;
+    align-content: center;
 }
 #searchdisplay {
     margin: 2px;
